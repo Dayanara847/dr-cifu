@@ -1,0 +1,12 @@
+.navbar {
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.home {
+    text-decoration: none;
+    color: white;
+}
