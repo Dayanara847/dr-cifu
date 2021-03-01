@@ -1,29 +1,18 @@
-import { Link } from 'react-router-dom';
 import './NavBar.modules.css';
 
 function NavBar() {
   return (
     <div className="navbar">
-      <Link className="home" to='/'>
-        <span >
-          Inicio
-        </span>
-      </Link>
-      <Link className="home" to='/aboutme'>
-        <span>
-          Sobre mí
-        </span>
-      </Link>
-      <Link className="home" to='/aboutTherapy'>
-        <span>
-          Sobre la terapia
-        </span>
-      </Link>
-      <Link className="home" to='/contact'>
-        <span>
-          Contacto
-        </span>
-      </Link>
+      <a className="linkNavBar" href="#arriba">Inicio
+        </a>
+      <a className="linkNavBar" href="#AboutMe">Sobre mí
+        </a>
+      <a className="linkNavBar" href="#aboutTeraphy">Sobre la psicoterapia
+        </a>
+      <a className="linkNavBar" href="#research">Investigación
+        </a>
+      <a className="linkNavBar" href="#contact">Contacto
+        </a>
     </div>
   );
 };

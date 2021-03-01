@@ -1,3 +1,149 @@
-.home {
-    background-color: black;
+.App-logo {
+    width: 35rem;
+    height: auto;
+}
+
+#contact {
+    margin: 2rem 0 2rem 0;
+    padding: 2rem;
+    color: white;
+    background-color: #fc8876;
+    display: flex;
+    flex-direction: column;
+}
+
+#contactInte {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactInstagram {
+    width: 3.1rem;
+    clip-path: circle(1.1rem at center);
+}
+
+
+#firstName,
+#lastName,
+#email {
+    margin-bottom: 0.5rem;
+    width: 25rem;
+    height: 2rem;
+    font-size: 0.9rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}
+
+#homeBody {
+    padding-top: 5rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.instagram {
+    width: 4rem;
+    clip-path: circle(1.5rem at center);
+}
+
+#line {
+    height: 0.08rem;
+    border: none;
+    color: #fc8876;
+    background-color: #fc8876;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.link {
+    width: 3.2rem;
+    clip-path: circle(1.6rem at center);
+}
+
+.linkOrcid {
+    width: 3.1rem;
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18rem;
+}
+
+#message {
+    width: 25rem;
+    height: 10rem;
+    font-size: 0.9rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}
+
+.paragraph2 {
+    text-align: justify;
+    padding: 0 20rem 0rem 20rem;
+}
+
+#research,
+#aboutTeraphy {
+    padding: 2rem;
+}
+
+#research {
+    background-color: #ec0673;
+    color: white;
+}
+
+.separatoryLine {
+    background-color: white;
+    width: 0.1rem;
+    height: 9rem;
+    margin: 0.5rem 5rem 0.5rem 5rem;
+}
+
+.sendButton {
+    margin-top: 0.5rem;
+    width: 4rem;
+    height: 2rem;
+    color: gray;
+    border: solid gray 0.1rem;
+    background-color: rgb(190, 178, 178);
+    border-radius: 1rem;
+}
+
+.sendButtonEn {
+    background: none;
+    color: white;
+    border: solid white 0.1rem;
+    cursor: pointer;
+}
+
+.sign {
+    padding-right: 1rem;
+    text-align: end;
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+
+.WhatsApp {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    width: 2rem;
 }

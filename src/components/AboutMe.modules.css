@@ -1,0 +1,65 @@
+#AboutMe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 0 20rem 0 20rem;
+    background-color: #009494be;
+    border-radius: 2rem 0 10rem 0;
+    color: white;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: 1rem;
+    padding: 0 1rem 0 1rem;
+    border: solid white 0.1rem;
+    width: 20rem;
+    border-radius: 2rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    padding-right: 2rem;
+}
+
+.icon {
+    width: 10rem !important;
+    height: 5rem !important;
+}
+
+.iconOne {
+    color: #fc8876;
+}
+
+.iconTwo {
+    color: #c3c888;
+}
+
+.iconThree {
+    color: #ec0673;
+}
+
+.imgPsico {
+    width: 15rem;
+    /*     border-radius: 50%; */
+    z-index: 0;
+    clip-path: circle(7.3rem at center);
+}
+
+#pImg {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    width: 100%;
+    text-align: start;
+    margin-bottom: 0;
+}
