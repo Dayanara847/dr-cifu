@@ -1,0 +1,24 @@
+#aboutTeraphy {
+    padding: 2rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph {
+    text-align: justify;
+    padding: 0 20rem 0rem 20rem;
+}
+
+.sofa {
+    width: 70vw;
+}
+
+.sofaSpace {
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

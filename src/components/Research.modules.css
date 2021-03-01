@@ -1,0 +1,37 @@
+.instagram {
+    width: 4rem;
+    clip-path: circle(1.5rem at center);
+}
+
+.linkGoogleResearch {
+    width: 3.2rem;
+    clip-path: circle(1.6rem at center);
+}
+
+.linkOrcid {
+    width: 3.1rem;
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.paragraph {
+    text-align: justify;
+    padding: 0 20rem 0rem 20rem;
+}
+
+#research {
+    padding: 2rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ec0673;
+    color: white;
+}
