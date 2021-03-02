@@ -48,7 +48,9 @@ function AboutTherapy() {
             <p className="paragraph">
                 Si te interesa conocer con más detalles teórico-prácticos de esta forma de psicoterapia, te invito a revisar el apartado de investigación. Allí encontrarás las respuestas que necesitas.
       </p>
+      <a href="#research" >
       <ExpandMoreIcon id="arrowIcon"/>
+      </a>
         </div>
     )
 }

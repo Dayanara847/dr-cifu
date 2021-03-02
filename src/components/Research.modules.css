@@ -18,21 +18,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    padding-top: 1rem;
 }
 
-.paragraph {
+.paragraphResearch {
     text-align: justify;
-    padding: 0 20rem 0rem 20rem;
+    padding: 0 28rem 0rem 28rem;
+    margin: 0.5rem 0;
 }
 
 #research {
-    padding: 2rem;
-    height: 50rem;
+    height: 42rem;
+    position: absolute;
+    left: 21rem;
+    z-index: -1;
+}
+
+#researchContainer {
+    padding: 20rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ec0673;
     color: white;
 }
