@@ -100,7 +100,7 @@ function Contact() {
                 </div>
             </div>
             <img
-                src="image809.png"
+                src="sofaDetail.png"
                 className="sofaDetail"
                 alt="Alejandro Cifuentes"
             />
