@@ -1,28 +1,54 @@
 import React from 'react';
 import './AboutTherapy.modules.css';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 function AboutTherapy() {
     return (
         <div id="aboutTeraphy">
-            <div className="sofaSpace">
-                <img
-                    src="Sofá 1.png"
-                    className="sofa"
-                    alt="logo"
-                />
-            </div>
+            <img
+                src="Sofá 1.png"
+                className="sofa"
+                alt="logo"
+            />
+            <p className="phrase">
+                "Las personas construimos nuestras identidades y damos<br /> significado a lo que nos pasa en la vida a través<br /> de las historias que nos contamos."<br />
+            </p>
 
-            <h3>Psicoterapia</h3>
+            <h3 id="psicoTitle">Psicoterapia</h3>
             <p className="paragraph">
-                El sufrimiento humano ha acompañado a la humanidad desde sus inicios, y diversas han sido las formas de abordarlo (amigos, religión, pasatiempos, etc). Sin embargo, la disciplina profesional que se ha encargado por varias décadas de su alivio es la psicoterapia.
+                La psicoterapia es un <span className="highlightTherapy">proceso</span> que busca promover el bienestar del consultante, resignificando el sufrimiento humano que le llevó a consultar a través de diversos medios psicológicos.
           </p>
             <p className="paragraph">
-                La palabra psicoterapia proviene del griego Psyché (alma) y therapeutikós (el que cuida del otro) por lo que podría entenderse como una práctica en la que una persona cuida del alma o espíritu de otra. Sin embargo, hoy en día se entiende a la psicoterapia como un tratamiento ejercido por un profesional autorizado que utiliza diversas teorías o corrientes para promover el bienestar en una persona en el contexto de una relación profesional.
+                Existen muchas maneras de hacer psicoterapia. La forma de psicoterapia que yo practico se denomina <span className="highlightTherapy">constructivista</span> y <span className="highlightTherapy">construccionista</span>. Te cuento brevemente sus principales características:
       </p>
+            <div className="ideas">
+                <div className="circle">1</div>
+                <p className="paragraphIdea">
+                    El encuentro psicoterapéutico es único e irrepetible. Cada persona forma parte de una red de significados y creencias particulares que el terapeuta debe comprender y respetar.
+      </p>
+            </div>
+            <div className="ideas">
+                <div className="circle">2</div>
+                <p className="paragraphIdea">
+                    La psicoterapia es un encuentro de expertos. El consultante en su vida y en lo que le aqueja y el terapeuta en hacer preguntas que movilicen el cambio.
+      </p>
+            </div>
+            <div className="ideas">
+                <div className="circle">3</div>
+                <p className="paragraphIdea">
+                    Los hechos nunca cambian, las interpretaciones de ellos sí. Los seres humanos construimos activamente nuestra realidad. Algo que se interpreta como un problema puede ser interpretado de otra manera gracias al lenguaje.
+      </p>
+            </div>
+            <div className="ideas">
+                <div className="circle">4</div>
+                <p className="paragraphIdea">
+                    El foco terapéutico está en los recursos del consultante, no en sus carencias. Lamentablemente, los test psicológicos y las etiquetas diagnósticas patologizan la vida humana. Aquí se prescinde de su uso: Las personas tienen derecho a contar su historia en sus propios términos.
+      </p>
+            </div>
             <p className="paragraph">
-                Pero hay un problema, se han documentado cerca de 400 formas de psicoterapia distintas! ¿Cuál es mejor? Dificil pregunta, ya que todas tienen pros y contras entendiendo los problemas humanos de diferentes maneras.<br />
-          La psicoterapia con la que trabajo yo trabajo se denomina constructivista y construccionista. En palabras simples esta se caracteriza por: 1,2,3,4,5
-          </p>
+                Si te interesa conocer con más detalles teórico-prácticos de esta forma de psicoterapia, te invito a revisar el apartado de investigación. Allí encontrarás las respuestas que necesitas.
+      </p>
+      <ExpandMoreIcon id="arrowIcon"/>
         </div>
     )
 }

@@ -91,7 +91,7 @@ function Contact() {
                     </div>
                     <div className="info">
                         <img
-                            src="wapp.webp"
+                            src="whatsApp.png"
                             className="WhatsApp"
                             alt="WhatsApp"
                         />
@@ -99,6 +99,11 @@ function Contact() {
                     </div>
                 </div>
             </div>
+            <img
+                src="image809.png"
+                className="sofaDetail"
+                alt="Alejandro Cifuentes"
+            />
         </div>
     )
 };

@@ -1,5 +1,6 @@
 .instagram {
     width: 4rem;
+    margin-right: 0.7rem;
     clip-path: circle(1.5rem at center);
 }
 
@@ -9,8 +10,8 @@
 }
 
 .linkOrcid {
-    width: 3.1rem;
-    padding: 0 0.5rem 0 0.5rem;
+    width: 5.3rem;
+    clip-path: circle(1.6rem at center);
 }
 
 .links {

@@ -33,7 +33,7 @@ function Research() {
             />
             <a href="https://www.instagram.com/alecifu07/">
               <img
-                src="orcid.svg"
+                src="orcidPNG.png"
                 className="linkOrcid"
                 alt="Orcid"
               />

@@ -2,9 +2,9 @@
     margin: 2rem 0 2rem 0;
     padding: 2rem;
     color: white;
-    background-color: #fc8876;
     display: flex;
     flex-direction: column;
+    background-color: #fc8876;
     height: 33rem;
 }
 
@@ -76,6 +76,14 @@
     color: white;
     border: solid white 0.1rem;
     cursor: pointer;
+}
+
+.sofaDetail {
+    width: 15rem;
+    height: 10rem;
+    position: absolute;
+    bottom: -201rem;
+    right: 1rem;
 }
 
 .WhatsApp {
