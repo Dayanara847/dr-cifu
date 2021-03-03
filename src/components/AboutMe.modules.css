@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 0 auto 10rem auto;
+    margin: 0 auto 0 auto;
     height: 49rem;
     width: 100%;
 }

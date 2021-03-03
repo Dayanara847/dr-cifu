@@ -35,7 +35,8 @@
 }
 
 #researchContainer {
-    padding: 20rem 0;
+    padding: 15rem 0;
+    padding-bottom: 8.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -24,33 +24,34 @@ function AboutTherapy() {
             <div className="ideas">
                 <div className="circle">1</div>
                 <p className="paragraphIdea">
-                    El encuentro psicoterapéutico es único e irrepetible. Cada persona forma parte de una red de significados y creencias particulares que el terapeuta debe comprender y respetar.
+                    <span className="colour">El encuentro psicoterapéutico es único e irrepetible.</span> Cada persona forma parte de una red de significados y creencias particulares que el terapeuta debe comprender y respetar.
       </p>
             </div>
             <div className="ideas">
                 <div className="circle">2</div>
                 <p className="paragraphIdea">
-                    La psicoterapia es un encuentro de expertos. El consultante en su vida y en lo que le aqueja y el terapeuta en hacer preguntas que movilicen el cambio.
+                    <span className="colour">La psicoterapia es un encuentro de expertos.</span> El consultante en su vida y en lo que le aqueja y el terapeuta en hacer preguntas que movilicen el cambio.
       </p>
             </div>
             <div className="ideas">
                 <div className="circle">3</div>
                 <p className="paragraphIdea">
-                    Los hechos nunca cambian, las interpretaciones de ellos sí. Los seres humanos construimos activamente nuestra realidad. Algo que se interpreta como un problema puede ser interpretado de otra manera gracias al lenguaje.
+                    <span className="colour">Los hechos nunca cambian, las interpretaciones de ellos sí.</span> Los seres humanos construimos activamente nuestra realidad. Algo que se interpreta como un problema puede ser interpretado de otra manera gracias al lenguaje.
       </p>
             </div>
             <div className="ideas">
                 <div className="circle">4</div>
                 <p className="paragraphIdea">
-                    El foco terapéutico está en los recursos del consultante, no en sus carencias. Lamentablemente, los test psicológicos y las etiquetas diagnósticas patologizan la vida humana. Aquí se prescinde de su uso: Las personas tienen derecho a contar su historia en sus propios términos.
+                    <span className="colour">El foco terapéutico está en los recursos del consultante, no en sus carencias.</span> Lamentablemente, los test psicológicos y las etiquetas diagnósticas patologizan la vida humana. Aquí se prescinde de su uso: Las personas tienen derecho a contar su historia en sus propios términos.
       </p>
             </div>
-            <p className="paragraph">
-                Si te interesa conocer con más detalles teórico-prácticos de esta forma de psicoterapia, te invito a revisar el apartado de investigación. Allí encontrarás las respuestas que necesitas.
+            <img src="paper.png" alt="" id="paper" />
+            <p className="paragraph bottom">
+                Si te interesa conocer más detalles teórico-prácticos de esta forma de psicoterapia, te invito a revisar el apartado de investigación. Allí encontrarás las respuestas que necesitas.
       </p>
-      <a href="#research" >
-      <ExpandMoreIcon id="arrowIcon"/>
-      </a>
+            <a href="#research" >
+                <ExpandMoreIcon id="arrowIcon" />
+            </a>
         </div>
     )
 }

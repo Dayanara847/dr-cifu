@@ -90,11 +90,13 @@ function Contact() {
                         <p>@DrCifu</p>
                     </div>
                     <div className="info">
+                        <a href="https://api.whatsapp.com/send/?phone=56942082668">
                         <img
                             src="whatsApp.png"
                             className="WhatsApp"
                             alt="WhatsApp"
                         />
+                        </a>
                         <p>+56 942082668</p>
                     </div>
                 </div>

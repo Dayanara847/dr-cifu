@@ -3,7 +3,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 5rem;
+    padding-top: 3rem;
+    position: relative;
+    margin-bottom: 8rem;
+}
+
+#arrowIcon {
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: #ec0673;
+}
+
+.bottom {
+    margin-top: 15rem !important;
 }
 
 .circle {
@@ -21,6 +33,11 @@
     left: 25rem;
 }
 
+.colour {
+    color: #ec0673;
+    font-weight: 740;
+}
+
 .highlightTherapy {
     color: #adb92a;
     font-size: 1.52rem;
@@ -33,10 +50,17 @@
     align-items: center;
 }
 
+#paper {
+    width: 35em;
+    position: absolute;
+    z-index: -1;
+    bottom: -11.5rem;
+}
+
 .paragraph {
     text-align: justify;
-    margin: 0.5rem 0;
-    padding: 0 20rem 0rem 20rem;
+    margin: 0.5rem 20rem;
+    margin-bottom: 0;
 }
 
 .paragraphIdea {
@@ -57,12 +81,6 @@
 
 #psicoTitle {
     margin: 12rem 0 0 0;
-}
-
-#arrowIcon {
-    padding-top: 1rem;
-    font-size: 2rem;
-    color: #ec0673;
 }
 
 .sofa {
