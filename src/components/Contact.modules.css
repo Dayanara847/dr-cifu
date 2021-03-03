@@ -1,11 +1,11 @@
 #contact {
-    margin-bottom: 2rem;
-    padding: 4rem;
+    margin-bottom: 2vw;
+    padding: 4vw;
+    margin-top: 8vw;
     color: white;
     display: flex;
     flex-direction: column;
     background-color: #fc8876;
-    height: 33rem;
 }
 
 #contactInte {
@@ -16,25 +16,29 @@
 }
 
 .contactInstagram {
-    width: 3.1rem;
-    clip-path: circle(1.1rem at center);
+    width: 3.1vw;
+    clip-path: circle(1.1vw at center);
+}
+
+.contactTitle {
+    font-size: 1.3vw;
 }
 
 #firstName,
 #lastName,
 #email {
-    margin-bottom: 0.5rem;
-    width: 25rem;
-    height: 2rem;
-    font-size: 0.9rem;
+    margin-bottom: 0.5vw;
+    width: 26vw;
+    height: 2vw;
+    font-size: 0.9vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: none;
-    border-radius: 0.5rem;
-    padding: 0.2rem;
+    border-radius: 0.5vw;
+    padding: 0.2vw;
 }
 
 .imgPsico {
-    width: 10rem;
+    width: 10vw;
     clip-path: circle();
 }
 
@@ -44,50 +48,69 @@
     align-items: center;
 }
 
+.infoContact {
+    font-size: 1.05vw;
+}
+
 #message {
-    width: 25rem;
-    height: 10rem;
-    font-size: 0.9rem;
+    width: 26vw;
+    height: 10vw;
+    font-size: 0.9vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: none;
-    border-radius: 0.5rem;
-    padding: 0.2rem;
+    border-radius: 0.5vw;
+    padding: 0.2vw;
+}
+
+#o {
+    font-size: 1vw;
 }
 
 .separatoryLine {
     background-color: white;
-    width: 0.1rem;
-    height: 9rem;
-    margin: 0.5rem 5rem 0.5rem 5rem;
+    width: 0.1vw;
+    height: 9vw;
+    margin: 0.5vw 5vw;
 }
 
 .sendButton {
-    margin-top: 0.5rem;
-    width: 4rem;
-    height: 2rem;
+    font-size: 0.9vw;
+    margin-top: 0.5vw;
+    width: 4vw;
+    height: 2vw;
     color: gray;
-    border: solid gray 0.1rem;
+    border: solid gray 0.1vw;
     background-color: rgb(190, 178, 178);
-    border-radius: 1rem;
+    border-radius: 1vw;
 }
 
 .sendButtonEn {
     background: none;
     color: white;
-    border: solid white 0.1rem;
+    border: solid white 0.1vw;
     cursor: pointer;
 }
 
 .sofaDetail {
-    width: 15rem;
-    height: 10rem;
+    width: 15vw;
+    height: 10vw;
     position: absolute;
-    bottom: -214rem;
-    right: 1rem;
+    bottom: -205.5vw;
+    right: 1vw;
+}
+
+.subtitle {
+    font-size: 1.05vw;
 }
 
 .WhatsApp {
-    margin-right: 0.5rem;
-    margin-left: 0.5rem;
-    width: 2rem;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+    width: 2vw;
+}
+
+@media screen and (max-width: 600px) {
+    #o {
+        display: none;
+    }
 }

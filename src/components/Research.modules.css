@@ -1,45 +1,44 @@
 .instagram {
-    width: 4rem;
-    margin-right: 0.7rem;
-    clip-path: circle(1.5rem at center);
+    width: 4vw;
+    margin-right: 0.7vw;
+    clip-path: circle(1.7vw at center);
 }
 
 .linkGoogleResearch {
-    width: 3.2rem;
-    clip-path: circle(1.6rem at center);
+    width: 3.4vw;
+    clip-path: circle(1.7vw at center);
 }
 
 .linkOrcid {
-    width: 5.3rem;
-    clip-path: circle(1.6rem at center);
+    width: 5.7vw;
+    clip-path: circle(1.65vw at center);
 }
 
 .links {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 1rem;
+    padding-top: 1vw;
 }
 
 .paragraphResearch {
+    font-size: 1.05vw;
     text-align: justify;
-    padding: 0 28rem 0rem 28rem;
-    margin: 0.5rem 0;
+    padding: 0 29vw 0rem 29vw;
+    margin: 0.5vw 0;
 }
 
 #research {
-    height: 42rem;
+    height: 43.5vw;
     position: absolute;
-    left: 21rem;
     z-index: -1;
 }
 
 #researchContainer {
-    padding: 15rem 0;
-    padding-bottom: 8.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
+    padding-top: 10vw;
 }

@@ -46,7 +46,7 @@ function AboutTherapy() {
       </p>
             </div>
             <img src="paper.png" alt="" id="paper" />
-            <p className="paragraph bottom">
+            <p className="paragraph">
                 Si te interesa conocer más detalles teórico-prácticos de esta forma de psicoterapia, te invito a revisar el apartado de investigación. Allí encontrarás las respuestas que necesitas.
       </p>
             <a href="#research" >

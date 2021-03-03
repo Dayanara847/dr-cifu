@@ -17,10 +17,10 @@ function Home() {
           alt="logo"
         />
         <div className="circles">
-        <div className="circleShape circleAboutMe"></div>
-        <div className="circleShape circleAboutTherapy"></div>
-        <div className="circleShape circleResearch"></div>
-        <div className="circleShape circleContact"></div>
+          <div className="circleShape circleAboutMe"></div>
+          <div className="circleShape circleAboutTherapy"></div>
+          <div className="circleShape circleResearch"></div>
+          <div className="circleShape circleContact"></div>
         </div>
       </div>
 

@@ -4,65 +4,99 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto 0 auto;
-    height: 49rem;
     width: 100%;
 }
 
 .card {
-    padding: 0 1rem;
     display: flex;
     align-items: center;
     text-align: center;
-    margin: 4rem;
-    padding: 6.5rem 1rem 0 1rem;
-    width: 15rem;
+    margin: 4vw;
+    padding: 6.5vw 0 0 0;
+    width: 15vw;
     font-size: 1rem;
 }
 
 .cards {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .highlightDegree {
     color: #ec0673;
-    font-size: 1.45rem;
+    font-size: 1.45vw;
     font-weight: bold;
 }
 
 .highlight {
     color: #adb92a;
-    font-size: 1.45rem;
+    font-size: 1.45vw;
     font-weight: bold;
     font-family:'Courier New', Courier, monospace
 }
 
 .box {
-    width: 21rem;
-    margin: 3rem 1rem;
-    padding: 0 1rem;
+    width: 21vw;
+    margin: 3vw 1vw;
+    padding: 0 1vw;
     position: absolute;
     z-index: -1;
 }
 
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .educationBox {
-    left: 10rem;
+    left: 14vw;
 }
 
 .experienceBox {
-    left: 35rem;
+    left: 37vw;
 }
 
 .hobbiesBox {
-    left: 60rem;
+    left: 60vw;
+}
+
+.text {
+    font-size: 1.1vw;
 }
 
 .title {
     width: 100%;
     text-align: center;
-    margin: 0 0 1rem 0 !important;
+    margin: 0 0 1vw 0 !important;
     color: white;
-    font-size: 3rem;
+    font-size: 3vw;
     background-color: #fc8876;
     font-family: 'Courier New', Courier, monospace;
+}
+
+@media screen and (max-width: 600px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .box {
+        width: 50vw;
+    }
+    .boxes {
+        display: flex;
+        flex-direction: column;
+    }
+    .educationBox {
+        margin: 0 auto;
+    }
+    
+    .experienceBox {
+        margin: 0 auto;
+    }
+    
+    .hobbiesBox {
+        margin: 0 auto;
+    }
 }

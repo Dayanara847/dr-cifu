@@ -22,10 +22,10 @@ function Contact() {
 
     return (
         <div id="contact">
-            <h3>¿Conversemos?</h3>
+            <h3 className="contactTitle">¿Conversemos?</h3>
             <div id="contactInte">
                 <div className="contactForm">
-                    <h4>Envíame un mensaje</h4>
+                    <h4 className="subtitle">Envíame un mensaje</h4>
                     <form onSubmit={handleSubmit}>
                         <div>
                             <input
@@ -68,7 +68,7 @@ function Contact() {
 
                 <div>
                     <div className="separatoryLine"></div>
-                    <div >ó</div>
+                    <div id="o">ó</div>
                     <div className="separatoryLine"></div>
                 </div>
 
@@ -78,7 +78,7 @@ function Contact() {
                         className="imgPsico"
                         alt="Alejandro Cifuentes"
                     />
-                    <h4>Contáctame por redes sociales</h4>
+                    <h4 className="subtitle">Contáctame por redes sociales</h4>
                     <div className="info">
                         <a href="https://www.instagram.com/alecifu07/" className="linkInstagram">
                             <img
@@ -87,7 +87,7 @@ function Contact() {
                                 alt="@DrCifu"
                             />
                         </a>
-                        <p>@DrCifu</p>
+                        <p className="infoContact">@DrCifu</p>
                     </div>
                     <div className="info">
                         <a href="https://api.whatsapp.com/send/?phone=56942082668">
@@ -97,7 +97,7 @@ function Contact() {
                             alt="WhatsApp"
                         />
                         </a>
-                        <p>+56 942082668</p>
+                        <p className="infoContact">+56 942082668</p>
                     </div>
                 </div>
             </div>
