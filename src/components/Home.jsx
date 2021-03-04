@@ -36,6 +36,16 @@ function Home() {
       <a name="contact"></a>
       <Contact />
 
+      <a href="#contact" className="dialogoSofa">
+        <img src="dialogo.png" alt="" className="globo" />
+
+        <img
+          src="sofaDetail.png"
+          className="sofaDetail"
+          alt=""
+        />
+      </a>
+
       <hr id="line" />
       <p id="sign">Dayanara Maurin (2021)</p>
     </div>

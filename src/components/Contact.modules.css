@@ -91,14 +91,6 @@
     cursor: pointer;
 }
 
-.sofaDetail {
-    width: 15vw;
-    height: 10vw;
-    position: absolute;
-    bottom: -205.5vw;
-    right: 1vw;
-}
-
 .subtitle {
     font-size: 1.05vw;
 }

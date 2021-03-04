@@ -13,7 +13,6 @@ function AboutTherapy() {
             <p className="phrase">
                 "Las personas construimos nuestras identidades y damos<br /> significado a lo que nos pasa en la vida a través<br /> de las historias que nos contamos."<br />
             </p>
-
             <h3 id="psicoTitle">Psicoterapia</h3>
             <p className="paragraph">
                 La psicoterapia es un <span className="highlightTherapy">proceso</span> que busca promover el bienestar del consultante, resignificando el sufrimiento humano que le llevó a consultar a través de diversos medios psicológicos.

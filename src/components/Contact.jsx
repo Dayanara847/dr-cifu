@@ -101,11 +101,6 @@ function Contact() {
                     </div>
                 </div>
             </div>
-            <img
-                src="sofaDetail.png"
-                className="sofaDetail"
-                alt="Alejandro Cifuentes"
-            />
         </div>
     )
 };

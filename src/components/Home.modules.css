@@ -34,7 +34,7 @@
 }
 
 #homeBody {
-    padding-top: 5vw;
+    padding-top: 3vw;
 }
 
 #line {
@@ -61,3 +61,26 @@
     font-size: 0.8rem;
     opacity: 0.5;
 }
+
+.sofaDetail {
+    width: 30vh;
+    height: 20vh;
+    position: fixed;
+	bottom: 0rem;
+	right: 1rem;
+	z-index: 99;
+}
+
+.globo{
+    width: 3rem;
+    height: 3rem;
+    bottom: 7rem;
+	right: 5.5rem;
+    position: fixed;
+    display: none;
+}
+
+.dialogoSofa:hover .globo {
+    display: inline;
+}
+

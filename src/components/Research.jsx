@@ -5,7 +5,7 @@ function Research() {
   return (
     <div id="researchContainer">
       <img id="research" src="newResearch.png" alt="" />
-      <h3>Investigación</h3>
+      <h3 className="titles">Investigación</h3>
       <p className="paragraphResearch">
         Mi línea de investigación gira en torno a la filosofía de la psicología y a la epistemología de la psicoterapia. He publicado diversos artículos en torno a la música y fotografía en psicoterapia, sobre la psicoterapia online, sobre metodología de la investigación y fundamentalmente sobre epistemología  aplicada a la psicoterapia. Si te interesa algo de ello, puedes revisar algunas de mis publicaciones a continuación (vinculos).
           </p>
