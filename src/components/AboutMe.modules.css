@@ -78,26 +78,57 @@
 }
 
 @media screen and (max-width: 600px) {
-    .cards {
-        display: flex;
-        flex-direction: column;
+    #AboutMe {
+        height: 208vw;
+        padding-top: 0;
+        align-items: flex-start;
     }
     .box {
+        position: absolute;
         width: 50vw;
     }
     .boxes {
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        justify-content: center;
+        margin: auto;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        height: 208vw;
     }
     .educationBox {
-        margin: 0 auto;
+        margin: 1vw;
+        left: auto;
+        top: 57vw;
+        margin-top: 5vw;
     }
-    
     .experienceBox {
-        margin: 0 auto;
+        margin: 1vw;
+        left: auto;
+        top: 140vw;
+    }
+    .highlightDegree {
+        font-size: 2.8vw;
     }
     
+    .highlight {
+        font-size: 2.8vw;
+    }
     .hobbiesBox {
-        margin: 0 auto;
+        margin: 1vw;
+        left: auto;
+        top: 223vw;
+    }
+    .text {
+        font-size: 2.8vw;
+        min-width: 35vw;
+    }
+    .title {
+        font-size: 8vw;
     }
 }

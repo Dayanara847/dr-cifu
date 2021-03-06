@@ -84,3 +84,12 @@
     display: inline;
 }
 
+@media screen and (max-width: 600px) {
+    .App-logo {
+        width: 50vw;
+        height: auto;
+    }
+    #logo {
+        height: 100vh;
+    }
+}

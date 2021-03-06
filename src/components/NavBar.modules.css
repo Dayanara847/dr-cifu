@@ -1,3 +1,9 @@
+.linkNavBar {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1vw;
+}
+
 .navbar {
     display: flex;
     height: 3vw;
@@ -9,8 +15,37 @@
     z-index: 200;
 }
 
-.linkNavBar {
-    text-decoration: none;
-    color: white;
-    font-size: 1.1vw;
+.navbarContainer {
+    display: flex;
+    height: 3vw;
+    width: 100vw;
+}
+
+#sideBar {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .linkNavBar {
+        display: none;
+    }
+    .linkSideBar {
+        text-decoration: none;
+        color: #009494;
+    }
+    .menu {
+        color: white !important;
+        font-size: 2.5vw !important;
+        text-transform: capitalize !important;
+    }
+    .navbar {
+        display: none;
+    }
+    #sideBar {
+        display: block;
+        width: 100vw;
+        height: 6.2vw;
+        background-color: #009494;
+        position: fixed;
+    }
 }

@@ -4,12 +4,13 @@ import AboutMe from './AboutMe';
 import AboutTherapy from './AboutTherapy';
 import Research from './Research';
 import Contact from './Contact';
+import Prices from './Prices';
 
 
 function Home() {
   return (
     <div id="homeBody">
-      <a name="home"></a>
+      <a name="Inicio"></a>
       <div id="logo">
         <img
           src="Logo.png"
@@ -24,19 +25,22 @@ function Home() {
         </div>
       </div>
 
-      <a name="AboutMe"></a>
+      <a name="Sobre mí"></a>
       <AboutMe />
 
-      <a name="aboutTherapy"></a>
+      <a name="Sobre la psicoterapia"></a>
       <AboutTherapy />
 
-      <a name="research"></a>
+      <a name="Investigación"></a>
       <Research />
 
-      <a name="contact"></a>
+      <a name="Precios"></a>
+      <Prices />
+
+      <a name="Contacto"></a>
       <Contact />
 
-      <a href="#contact" className="dialogoSofa">
+      <a href="#Contacto" className="dialogoSofa">
         <img src="dialogo.png" alt="" className="globo" />
 
         <img
