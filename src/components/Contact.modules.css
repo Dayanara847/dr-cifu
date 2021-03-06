@@ -6,6 +6,8 @@
     display: flex;
     flex-direction: column;
     background-color: #fc8876;
+    justify-content: center;
+    align-items: center;
 }
 
 #contactInte {
@@ -15,6 +17,11 @@
     align-items: center;
 }
 
+.contactForm {
+    align-items: center;
+    justify-content: center;
+}
+
 .contactInstagram {
     width: 3.1vw;
     clip-path: circle(1.1vw at center);
@@ -22,6 +29,10 @@
 
 .contactTitle {
     font-size: 1.3vw;
+}
+
+.gmail {
+    width: 2vw;
 }
 
 #firstName,
@@ -102,7 +113,76 @@
 }
 
 @media screen and (max-width: 600px) {
+    .contactInstagram {
+        margin-top: 1vw;
+        width: 6vw;
+        clip-path: circle(2vw at center);
+    }
+    #contactInte {
+        flex-direction: column;
+    }
+    .contactTitle {
+        font-size: 3vw;
+    }
+    .gmail {
+        width: 4vw;
+        margin: 1.2vw;
+        margin-right: 1.3vw;
+    }
+    #firstName,
+    #lastName,
+    #email {
+        margin-bottom: 0.5vw;
+        width: 60vw;
+        height: 4.5vw;
+        font-size: 2.8vw;
+        padding: 0.2vw;
+    }
+    .imgPsico {
+        width: 28vw;
+        clip-path: circle();
+    }
+    .info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .infoContact {
+        font-size: 2.8vw;
+        margin: 0;
+    }
+    #information {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    #message {
+        width: 60vw;
+        height: 30vw;
+        font-size: 2.8vw;
+        margin-top: 1vw;
+    }
     #o {
         display: none;
+    }
+    .sendButton {
+        font-size: 2.8vw;
+        margin-top: 0vw;
+        width: 12vw;
+        height: 4.3vw;
+        border-radius: 2vw;
+    }
+    .separatoryLine {
+        display: none;
+    }
+    .subtitle {
+        font-size: 2.8vw;
+        margin: 0.5vw auto;
+    }
+    .WhatsApp {
+        margin-right: 1.5vw;
+        margin-left: 1vw;
+        width: 3.7vw;
     }
 }

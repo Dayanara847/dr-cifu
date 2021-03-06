@@ -104,6 +104,9 @@
         width: 68vw;
         height: auto;
     }
+    .dialogoSofa:hover .globo {
+        display: none;
+    }
     .contactPhone {
         display: block;
         width: 6.5vh;
@@ -112,17 +115,6 @@
         bottom: 1.9rem;
         right: 1rem;
         z-index: 99;
-    }
-    .contactPhone:hover .globo {
-        display: inline;
-    }
-    .globo{
-        width: 3.5rem;
-        height: 3.5rem;
-        bottom: 5rem;
-        right: 0rem;
-        position: fixed;
-        display: none;
     }
     #logo {
         height: 100vh;

@@ -72,7 +72,7 @@ function Contact() {
                     <div className="separatoryLine"></div>
                 </div>
 
-                <div>
+                <div id="information">
                     <img
                         src="alePhoto.jpg"
                         className="imgPsico"
@@ -98,6 +98,14 @@ function Contact() {
                         />
                         </a>
                         <p className="infoContact">+56 942082668</p>
+                    </div>
+                    <div className="info">
+                        <img
+                            src="gmail.png"
+                            className="gmail"
+                            alt="Gmail"
+                        />
+                        <p className="infoContact">alejandrocifuentesmunoz@gmail.com</p>
                     </div>
                 </div>
             </div>
