@@ -43,6 +43,39 @@
     padding-top: 8vw;
 }
 
+#researchPhone {
+    display: none;
+}
+
 .titles {
     font-size: 1.5vw;
+}
+
+@media screen and (max-width: 600px) {
+    .links {
+        width: 50%;
+        justify-content: flex-start;
+    }
+    .paragraphResearch {
+        font-size: 2.3vw;
+        text-align: justify;
+        padding: 0 22vw;
+        margin: 0.5vw 0;
+    }
+    #research {
+        display: none;
+    }
+    #researchContainer {
+        height: 120vw;
+        padding-top: 0;
+    }
+    #researchPhone {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        height: 117vw;
+    }
+    .titles {
+        font-size: 1.8vw;
+    }
 }

@@ -51,19 +51,11 @@
     justify-content: center;
 }
 
-.educationBox {
-    left: 14vw;
-}
-
-.experienceBox {
-    left: 37vw;
-}
-
-.hobbiesBox {
-    left: 60vw;
-}
-
 .text {
+    font-size: 1.1vw;
+}
+
+.textFinal {
     font-size: 1.1vw;
 }
 
@@ -79,12 +71,12 @@
 
 @media screen and (max-width: 600px) {
     #AboutMe {
-        height: 208vw;
-        padding-top: 0;
+        height: 265vw;
+        padding-top: 10vw;
         align-items: flex-start;
     }
     .box {
-        position: absolute;
+        position: relative;
         width: 50vw;
     }
     .boxes {
@@ -95,22 +87,12 @@
     .card {
         justify-content: center;
         margin: auto;
+        padding-top: 0;
     }
     .cards {
         display: flex;
         flex-direction: column;
-        height: 208vw;
-    }
-    .educationBox {
-        margin: 1vw;
-        left: auto;
-        top: 57vw;
-        margin-top: 5vw;
-    }
-    .experienceBox {
-        margin: 1vw;
-        left: auto;
-        top: 140vw;
+        height: 238vw;
     }
     .highlightDegree {
         font-size: 2.8vw;
@@ -119,12 +101,12 @@
     .highlight {
         font-size: 2.8vw;
     }
-    .hobbiesBox {
-        margin: 1vw;
-        left: auto;
-        top: 223vw;
-    }
     .text {
+        font-size: 2.8vw;
+        min-width: 35vw;
+    }
+    .textFinal {
+        padding-top: 20vw;
         font-size: 2.8vw;
         min-width: 35vw;
     }

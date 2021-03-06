@@ -5,11 +5,18 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 function AboutTherapy() {
     return (
         <div id="aboutTeraphy">
+            <div className="imageContainer">
             <img
-                src="Sofá 1.png"
+                src="sofa.png"
                 className="sofa"
                 alt="logo"
             />
+            <img
+                src="phrase.png"
+                className="phraseImg"
+                alt="logo"
+            />
+            </div>
             <p className="phrase">
                 "Las personas construimos nuestras identidades y damos<br /> significado a lo que nos pasa en la vida a través<br /> de las historias que nos contamos."<br />
             </p>
@@ -48,7 +55,7 @@ function AboutTherapy() {
             <p className="paragraph">
                 Si te interesa conocer más detalles teórico-prácticos de esta forma de psicoterapia, te invito a revisar el apartado de investigación. Allí encontrarás las respuestas que necesitas.
       </p>
-            <a href="#research" >
+            <a href="#Investigación" >
                 <ExpandMoreIcon id="arrowIcon" />
             </a>
         </div>

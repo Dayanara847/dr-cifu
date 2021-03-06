@@ -33,6 +33,10 @@
     background-color: #fc8876;
 }
 
+.contactPhone {
+    display: none;
+}
+
 #homeBody {
     padding-top: 3vw;
 }
@@ -53,6 +57,17 @@
     height: 45vw;
     background-image: url("../bg.png");
     background-size: cover;
+}
+
+#notes {
+    height: 28vw;
+}
+
+#prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vw;
 }
 
 #sign {
@@ -86,10 +101,34 @@
 
 @media screen and (max-width: 600px) {
     .App-logo {
-        width: 50vw;
+        width: 68vw;
         height: auto;
+    }
+    .contactPhone {
+        display: block;
+        width: 6.5vh;
+        height: 6.5vh;
+        position: fixed;
+        bottom: 1.9rem;
+        right: 1rem;
+        z-index: 99;
+    }
+    .contactPhone:hover .globo {
+        display: inline;
+    }
+    .globo{
+        width: 3.5rem;
+        height: 3.5rem;
+        bottom: 5rem;
+        right: 0rem;
+        position: fixed;
+        display: none;
     }
     #logo {
         height: 100vh;
+        align-items: center;
+    }
+    .sofaDetail {
+        display: none;
     }
 }

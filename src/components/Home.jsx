@@ -4,8 +4,6 @@ import AboutMe from './AboutMe';
 import AboutTherapy from './AboutTherapy';
 import Research from './Research';
 import Contact from './Contact';
-import Prices from './Prices';
-
 
 function Home() {
   return (
@@ -35,17 +33,25 @@ function Home() {
       <Research />
 
       <a name="Precios"></a>
-      <Prices />
+      <div id="prices">
+            <img id="notes" src="valores.png" alt="" />
+      </div>
 
       <a name="Contacto"></a>
       <Contact />
 
       <a href="#Contacto" className="dialogoSofa">
         <img src="dialogo.png" alt="" className="globo" />
-
+        {/* Imagen de sillón para app web */}
         <img
           src="sofaDetail.png"
           className="sofaDetail"
+          alt=""
+        />
+        {/* Imagen de sillón para app mobile */}
+        <img
+          src="contactPhone.png"
+          className="contactPhone"
           alt=""
         />
       </a>

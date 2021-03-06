@@ -73,6 +73,14 @@
     font-family: monospace;
 }
 
+.phraseImg {
+    position: absolute;
+    width: 50vw;
+    z-index: -1;
+    left: 33.5vw;
+    top: 5vw;
+}
+
 #psicoTitle {
     margin-top: 12vw;
     font-size: 1.3vw;
@@ -80,6 +88,64 @@
 
 .sofa {
     position: absolute;
-    width: 70vw;
+    width: 25vw;
     z-index: -1;
+    align-self: flex-start;
+    left: 9vw;
+}
+
+@media screen and (max-width: 600px) {
+    #aboutTeraphy {
+        margin-top: 0;
+    }
+    .circle {
+        width: 4.5vw;
+        height: 4.5vw;
+        border-radius: 50%;
+        position: absolute;
+        left: 14.5vw;
+    }
+    .highlightTherapy {
+        font-size: 2.8vw;
+    }
+    .imageContainer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #paper {
+        width: 55vw;
+    }
+    .paragraph {
+        padding: 0 14vw 0 14vw;
+        font-size: 2.8vw;
+    }
+    .paragraphIdea {
+        padding: 0 17vw 0 21vw;
+        font-size: 2.8vw;
+    }
+    .phrase {
+        font-size: 2.2vw;
+        position: absolute;
+        top: 15vw;
+        left: 15.5vw;
+    }
+    .phraseImg {
+        position: relative;
+        width: 85vw;
+        left: auto;
+    }
+    #psicoTitle {
+        font-size: 3vw;
+        margin-top: 8vw;
+        margin-bottom: 0;
+    }
+    .sofa {
+        position: absolute;
+        width: 120vw;
+        left: -42vw;
+        top: 8vw;
+        padding-top: 5vw;
+        opacity: 0.1;
+        align-self: unset;
+    }
 }

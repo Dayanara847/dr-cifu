@@ -4,6 +4,7 @@ import './Research.modules.css';
 function Research() {
   return (
     <div id="researchContainer">
+      <img id="researchPhone" src="researchPhone.png" alt="" />
       <img id="research" src="newResearch.png" alt="" />
       <h3 className="titles">INVESTIGACIÓN</h3>
       <p className="paragraphResearch">
