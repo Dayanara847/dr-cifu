@@ -10,7 +10,7 @@
 
 .box {
     width: 21vw;
-    height: auto;
+    height: 32.5vw;
     margin: 3vw 1vw;
     padding: 0 1vw;
     z-index: -1;
@@ -78,6 +78,7 @@
     .box {
         position: relative;
         width: 50vw;
+        height: auto;
     }
     .boxes {
         display: flex;
