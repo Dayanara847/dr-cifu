@@ -9,40 +9,34 @@
     justify-content: center;
     align-items: center;
 }
-
 #contactInte {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-
 .contactForm {
     align-items: center;
     justify-content: center;
 }
-
 .contactInstagram {
     width: 3.1vw;
+    margin-left: 0.5vw;
     clip-path: circle(1.1vw at center);
 }
-
 .contactTitle {
     font-size: 1.3vw;
 }
-
 #divider {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
 }
-
 .gmail {
-    width: 1.8vw;
-    padding: 0 0.6vw;
+    width: 4vw;
+    clip-path: circle(0.91vw at center);
 }
-
 #firstName,
 #lastName,
 #email {
@@ -55,22 +49,18 @@
     border-radius: 0.5vw;
     padding: 0.2vw;
 }
-
 .imgPsico {
     width: 10vw;
     clip-path: circle();
 }
-
 .info {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-
 .infoContact {
     font-size: 1.05vw;
 }
-
 #message {
     width: 26vw;
     height: 10vw;
@@ -80,19 +70,16 @@
     border-radius: 0.5vw;
     padding: 0.2vw;
 }
-
 #o {
     font-size: 1vw;
     margin: auto;
 }
-
 .separatoryLine {
     background-color: white;
     width: 0.1vw;
     height: 9vw;
     margin: 0.5vw 5vw;
 }
-
 .sendButton {
     font-size: 0.9vw;
     margin-top: 0.5vw;
@@ -103,21 +90,18 @@
     background-color: rgb(190, 178, 178);
     border-radius: 1vw;
 }
-
 .sendButtonEn {
     background: none;
     color: white;
     border: solid white 0.1vw;
     cursor: pointer;
 }
-
 .subtitle {
     font-size: 1.05vw;
 }
-
 .WhatsApp {
     margin-right: 0.5vw;
-    margin-left: 0.5vw;
+    margin-left: 1vw;
     width: 2vw;
 }
 
@@ -134,9 +118,8 @@
         font-size: 3vw;
     }
     .gmail {
-        width: 4vw;
-        margin: 1.2vw;
-        margin-right: 1.3vw;
+        width: 6.9vw;
+        clip-path: circle(1.7vw at center);
     }
     #firstName,
     #lastName,

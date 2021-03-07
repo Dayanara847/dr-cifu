@@ -53,8 +53,20 @@
 }
 
 @media screen and (max-width: 600px) {
+    .instagram {
+        width: 7vw;
+        clip-path: circle(2.7vw at center);
+    }
+    .linkGoogleResearch {
+        width: 6.2vw;
+        clip-path: circle(2.7vw at center);
+    }
+    .linkOrcid {
+        width: 9vw;
+        clip-path: circle(2.7vw at center);
+    }
     .links {
-        width: 50%;
+        width: 60%;
         justify-content: flex-start;
     }
     .paragraphResearch {

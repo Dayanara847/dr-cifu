@@ -80,7 +80,7 @@ function Contact() {
                     />
                     <h4 className="subtitle">Contáctame por aquí</h4>
                     <div className="info">
-                        <a href="https://www.instagram.com/alecifu07/" className="linkInstagram">
+                        <a href="https://www.instagram.com/drcifu/" className="linkInstagram">
                             <img
                                 src="instagram.jpg"
                                 className="contactInstagram"
