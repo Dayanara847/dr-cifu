@@ -92,9 +92,8 @@
     }
     .back {
         position: absolute;
-        width: 250vw;
-        left: -70vw;
-        top: 25vw;
+        height: 55vh;
+        width: auto;
         transform: rotate(-90deg);
     }
     .dialogoSofa:hover .globo {
