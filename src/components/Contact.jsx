@@ -66,7 +66,7 @@ function Contact() {
                     </form>
                 </div>
 
-                <div>
+                <div id="divider">
                     <div className="separatoryLine"></div>
                     <div id="o">ó</div>
                     <div className="separatoryLine"></div>
@@ -78,7 +78,7 @@ function Contact() {
                         className="imgPsico"
                         alt="Alejandro Cifuentes"
                     />
-                    <h4 className="subtitle">Contáctame por redes sociales</h4>
+                    <h4 className="subtitle">Contáctame por aquí</h4>
                     <div className="info">
                         <a href="https://www.instagram.com/alecifu07/" className="linkInstagram">
                             <img
