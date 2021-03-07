@@ -2,45 +2,40 @@
     width: 40vw;
     height: auto;
 }
-
+.back {
+    position: absolute;
+    width: 100vw;
+}
 .circles {
     display: flex;
     flex-direction: column;
     position: absolute;
     right: 2vw;
 }
-
 .circleShape {
     width: 1vw;
     height: 1vw;
     border-radius: 50%;
     margin-top: 0.5vw;
 }
-
 .circleAboutMe {
     background-color: #009494;
 }
-
 .circleAboutTherapy {
     background-color: #c3c888;
 }
-
 .circleResearch {
     background-color: #ec0673;
 }
-
 .circleContact {
     background-color: #fc8876;
 }
-
 .contactPhone {
     display: none;
 }
-
 #homeBody {
     padding-top: 3vw;
 }
-
 #line {
     height: 0.08vw;
     border: none;
@@ -49,34 +44,27 @@
     width: 100%;
     margin: 1rem auto;
 }
-
 #logo {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 45vw;
-    background-image: url("../bg.png");
-    background-size: cover;
 }
-
 #notes {
     height: 28vw;
 }
-
 #prices {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40vw;
 }
-
 #sign {
     padding-right: 1vw;
     text-align: end;
     font-size: 1.1vw;
     opacity: 0.5;
 }
-
 .sofaDetail {
     width: 11vw;
     height: 9vw;
@@ -85,7 +73,6 @@
 	right: 3vw;
 	z-index: 99;
 }
-
 .globo{
     width: 4.3vw;
     height: 4.3vw;
@@ -94,7 +81,6 @@
     position: fixed;
     display: none;
 }
-
 .dialogoSofa:hover .globo {
     display: inline;
 }
@@ -103,6 +89,13 @@
     .App-logo {
         width: 68vw;
         height: auto;
+    }
+    .back {
+        position: absolute;
+        width: 250vw;
+        left: -70vw;
+        top: 25vw;
+        transform: rotate(-90deg);
     }
     .dialogoSofa:hover .globo {
         display: none;

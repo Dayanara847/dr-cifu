@@ -9,6 +9,7 @@ function Home() {
   return (
     <div id="homeBody">
       <a name="Inicio"></a>
+      <img className="back" src="bg.png" alt="" />
       <div id="logo">
         <img
           src="Logo.png"
