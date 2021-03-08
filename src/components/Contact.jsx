@@ -26,7 +26,7 @@ function Contact() {
     e.preventDefault();
     let payload = state;
 
-    const response = await axios.post("http://localhost:3000/mails", payload);
+    const response = await axios.post("https://dralejandrocifuentes.com/mails", payload);
 
     if (response.data === "success") {
       swal("Todo listo!", "Mensaje enviado correctamente!", "success");
@@ -38,7 +38,7 @@ function Contact() {
 
   return (
     <div id="contact">
-      <h3 className="contactTitle">¿Conversemos?</h3>
+{/*       <h3 className="contactTitle">¿Conversemos?</h3>
       <div id="contactInte">
         <div className="contactForm">
           <h4 className="subtitle">Envíame un mensaje</h4>
@@ -94,7 +94,7 @@ function Contact() {
           <div className="separatoryLine"></div>
           <div id="o">ó</div>
           <div className="separatoryLine"></div>
-        </div>
+        </div> */}
 
         <div id="information">
           <img
@@ -128,7 +128,7 @@ function Contact() {
           </div>
         </div>
       </div>
-    </div>
+/*     </div> */
   );
 }
 

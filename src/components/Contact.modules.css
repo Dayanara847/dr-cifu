@@ -58,6 +58,12 @@
     flex-direction: row;
     align-items: center;
 }
+#information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .infoContact {
     font-size: 1.05vw;
 }
