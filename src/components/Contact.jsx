@@ -4,7 +4,7 @@ import axios from "axios";
 import swal from "sweetalert";
 
 function Contact() {
-/*   const [state, setState] = useState({
+  const [state, setState] = useState({
     firstName: "",
     lastName: "",
     email: "",
@@ -26,7 +26,10 @@ function Contact() {
     e.preventDefault();
     let payload = state;
 
-    const response = await axios.post("https://dralejandrocifuentes.com/mails", payload);
+    const response = await axios.post(
+      "https://dralejandrocifuentes.com/mails",
+      payload
+    );
 
     if (response.data === "success") {
       swal("Todo listo!", "Mensaje enviado correctamente!", "success");
@@ -34,13 +37,12 @@ function Contact() {
     } else if (response.data === "fail") {
       swal("Oh no!", "Error al enviar el mensaje.", "error");
     }
-  }; */
+  };
 
   return (
     <div id="contact">
-      <h3 className="contactTitle">CONTACTO</h3>
-{/*      <h3 className="contactTitle">¿Conversemos?</h3>
-       <div id="contactInte">
+      <h3 className="contactTitle">¿Conversemos?</h3>
+      <div id="contactInte">
         <div className="contactForm">
           <h4 className="subtitle">Envíame un mensaje</h4>
           <form id="myForm" onSubmit={handleSubmit}>
@@ -80,9 +82,7 @@ function Contact() {
               />
             </div>
             <button
-              className={
-                incomplete ? "sendButton" : "sendButton sendButtonEn"
-              }
+              className={incomplete ? "sendButton" : "sendButton sendButtonEn"}
               type="submit"
               disabled={incomplete}
             >
@@ -90,20 +90,19 @@ function Contact() {
             </button>
           </form>
         </div>
-
         <div id="divider">
           <div className="separatoryLine"></div>
           <div id="o">ó</div>
           <div className="separatoryLine"></div>
-        </div> */}
-
+        </div>{" "}
+        */}
         <div id="information">
           <img
             src="alePhoto.jpg"
             className="imgPsico"
             alt="Alejandro Cifuentes"
           />
-{/*           <h4 className="subtitle">Contáctame por aquí</h4> */}
+          <h4 className="subtitle">Contáctame por aquí</h4> */}
           <div className="info">
             <a
               href="https://www.instagram.com/drcifu/"
@@ -129,7 +128,7 @@ function Contact() {
           </div>
         </div>
       </div>
-/*     </div> */
+    </div>
   );
 }
 
