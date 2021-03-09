@@ -95,14 +95,13 @@ function Contact() {
           <div id="o">ó</div>
           <div className="separatoryLine"></div>
         </div>{" "}
-        */}
         <div id="information">
           <img
             src="alePhoto.jpg"
             className="imgPsico"
             alt="Alejandro Cifuentes"
           />
-          <h4 className="subtitle">Contáctame por aquí</h4> */}
+          <h4 className="subtitle">Contáctame por aquí</h4>
           <div className="info">
             <a
               href="https://www.instagram.com/drcifu/"
