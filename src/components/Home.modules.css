@@ -62,7 +62,7 @@
 #sign {
     padding-right: 5vw;
     text-align: end;
-    font-size: 1.7vw;
+    font-size: 1vw;
     opacity: 0.5;
 }
 .sofaDetail {
@@ -104,14 +104,25 @@
         width: 6.5vh;
         height: 6.5vh;
         position: fixed;
-        bottom: 5.2vw;
+        bottom: 4.5vw;
         right: 4.5vw;
         z-index: 99;
+    }
+    #line {
+        height: 0.2vw;
+        margin: 1rem auto;
+        margin-bottom: 0.5vw;
     }
     #logo {
         height: 100vh;
         width: auto;
         align-items: center;
+    }
+    #sign {
+        padding-right: 0;
+        text-align: center;
+        font-size: 1.5vw;
+        margin-top: 0;
     }
     .sofaDetail {
         display: none;

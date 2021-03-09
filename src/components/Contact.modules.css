@@ -61,6 +61,11 @@
 .infoContact {
     font-size: 1.05vw;
 }
+#information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #message {
     width: 26vw;
     height: 10vw;
