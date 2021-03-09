@@ -4,7 +4,7 @@ import axios from "axios";
 import swal from "sweetalert";
 
 function Contact() {
-  const [state, setState] = useState({
+/*   const [state, setState] = useState({
     firstName: "",
     lastName: "",
     email: "",
@@ -34,12 +34,13 @@ function Contact() {
     } else if (response.data === "fail") {
       swal("Oh no!", "Error al enviar el mensaje.", "error");
     }
-  };
+  }; */
 
   return (
     <div id="contact">
-{/*       <h3 className="contactTitle">¿Conversemos?</h3>
-      <div id="contactInte">
+      <h3 className="contactTitle">CONTACTO</h3>
+{/*      <h3 className="contactTitle">¿Conversemos?</h3>
+       <div id="contactInte">
         <div className="contactForm">
           <h4 className="subtitle">Envíame un mensaje</h4>
           <form id="myForm" onSubmit={handleSubmit}>
@@ -102,7 +103,7 @@ function Contact() {
             className="imgPsico"
             alt="Alejandro Cifuentes"
           />
-          <h4 className="subtitle">Contáctame por aquí</h4>
+{/*           <h4 className="subtitle">Contáctame por aquí</h4> */}
           <div className="info">
             <a
               href="https://www.instagram.com/drcifu/"

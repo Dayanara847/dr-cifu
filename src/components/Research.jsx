@@ -20,7 +20,7 @@ function Research() {
         Creo intensamente que los productos de la ciencia y la investigación deben estar al alcance de todos y todas, no sólo de una elite académica que publica artículos y libros en lenguajes complejos y poco accesible. Es por ello que, si quieres acercarte a mis investigaciones en un lenguaje amigable y simple, te invito a visitar mi instagram de divulgación científica. Por otro lado, si gustas profundizar en detalle lo expuesto en este apartado, te dejo mis redes de investigación que contienen mi producción científica.
           </p>
       <div className="links">
-        <a href="https://www.instagram.com/alecifu07/">
+        <a href="https://www.instagram.com/drcifu/">
           <img
             src="instagram.jpg"
             className="instagram"

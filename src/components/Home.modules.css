@@ -60,9 +60,9 @@
     height: 40vw;
 }
 #sign {
-    padding-right: 1vw;
+    padding-right: 5vw;
     text-align: end;
-    font-size: 1.1vw;
+    font-size: 1.7vw;
     opacity: 0.5;
 }
 .sofaDetail {
@@ -92,7 +92,7 @@
     }
     .back {
         position: absolute;
-        height: 52vh;
+        height: 40vh;
         width: auto;
         transform: rotate(-90deg);
     }
@@ -104,8 +104,8 @@
         width: 6.5vh;
         height: 6.5vh;
         position: fixed;
-        bottom: 4vw;
-        right: 3vw;
+        bottom: 5.2vw;
+        right: 4.5vw;
         z-index: 99;
     }
     #logo {
