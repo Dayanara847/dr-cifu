@@ -27,7 +27,7 @@ function Contact() {
     let payload = state;
 
     const response = await axios.post(
-      "https://dralejandrocifuentes.com/mails",
+      "https://drcifubackend.herokuapp.com/mails",
       payload
     );
 
