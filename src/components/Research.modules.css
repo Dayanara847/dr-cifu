@@ -79,14 +79,15 @@
         display: none;
     }
     #researchContainer {
-        height: 120vw;
+        height: 140vw;
         padding-top: 0;
+        padding-bottom: 0;
     }
     #researchPhone {
         display: block;
         position: absolute;
         z-index: -1;
-        height: 117vw;
+        height: 135vw;
     }
     .titles {
         font-size: 1.8vw;

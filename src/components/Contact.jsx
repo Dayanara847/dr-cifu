@@ -1,43 +1,32 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Contact.modules.css";
-import axios from "axios";
+import emailjs from 'emailjs-com';
 import swal from "sweetalert";
 
 function Contact() {
-  const [state, setState] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    message: "",
-  });
-  const [incomplete, setIncomplete] = useState(true);
+  const user_id = "user_cqtq1nlnZa2IUOohxdVZU";
+  function sendEmail(event) {
+      event.preventDefault();
 
-  const handleChange = (e) => {
-    if (state.firstName && state.lastName && state.email && state.message) {
-      setIncomplete(false);
-    }
-    setState({
-      ...state,
-      [e.target.id]: e.target.value,
-    });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    let payload = state;
-
-    const response = await axios.post(
-      "https://drcifubackend.herokuapp.com/mails",
-      payload
-    );
-
-    if (response.data === "success") {
-      swal("Todo listo!", "Mensaje enviado correctamente!", "success");
-      document.getElementById("myForm").reset();
-    } else if (response.data === "fail") {
-      swal("Oh no!", "Error al enviar el mensaje.", "error");
-    }
-  };
+      emailjs
+      .sendForm(
+         "service_lzp4v1c",
+         "dr_cifu_id",
+         event.target,
+         user_id
+     )
+     .then(
+         result => {
+         console.log(result.text);
+         document.getElementById("dr_cifu_id").reset();
+         swal("Todo listo!", "Mensaje enviado correctamente!", "success");
+         },
+         error => {
+             console.log(error.text)
+             swal("Oh no!", "Error al enviar el mensaje.", "error");
+         }
+     )
+ }
 
   return (
     <div id="contact">
@@ -45,49 +34,48 @@ function Contact() {
       <div id="contactInte">
         <div className="contactForm">
           <h4 className="subtitle">Envíame un mensaje</h4>
-          <form id="myForm" onSubmit={handleSubmit}>
-            <div>
+          <form id="dr_cifu_id" onSubmit={sendEmail}>
+            <div id="formContainer">
+              <label>Nombre</label>
               <input
-                placeholder="Nombre"
-                type="text"
                 id="firstName"
-                onChange={handleChange}
+                className="input"
+                name="firstName"
+                label="Nombre"
                 required
               />
-            </div>
-            <div>
+              <label>Apellido</label>
               <input
-                placeholder="Apellido"
-                type="text"
                 id="lastName"
-                onChange={handleChange}
+                className="input"
+                name="lastName"
+                label="Apellido"
                 required
               />
-            </div>
-            <div>
+              <label>Email</label>
               <input
-                placeholder="Email"
-                type="email"
+                className="input"
                 id="email"
-                onChange={handleChange}
+                name="email"
+                label="Email"
+                type="email"
                 required
               />
-            </div>
-            <div>
-              <textarea
-                placeholder="Mensaje"
+              <label>Mensaje</label>
+               <textarea
+                className="input"
                 id="message"
-                onChange={handleChange}
+                name="message"
+                label="Mensaje"
                 required
               />
-            </div>
             <button
-              className={incomplete ? "sendButton" : "sendButton sendButtonEn"}
+            className="sendButton"
               type="submit"
-              disabled={incomplete}
             >
               Enviar
             </button>
+            </div>
           </form>
         </div>
         <div id="divider">

@@ -16,6 +16,8 @@
     align-items: center;
 }
 .contactForm {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -37,17 +39,19 @@
     width: 4vw;
     clip-path: circle(0.91vw at center);
 }
+.MuiInputBase-formControl {
+    margin-bottom: 1vw !important;
+}
 #firstName,
 #lastName,
 #email {
-    margin-bottom: 0.5vw;
     width: 26vw;
-    height: 2vw;
-    font-size: 0.9vw;
+    height: 1vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1vw;
+    padding: 0.5vw;
     border: none;
     border-radius: 0.5vw;
-    padding: 0.2vw;
 }
 .imgPsico {
     width: 10vw;
@@ -66,14 +70,23 @@
     flex-direction: column;
     align-items: center;
 }
+#formContainer {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-size: 1vw;
+    margin: 0.2vw 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 #message {
     width: 26vw;
-    height: 10vw;
-    font-size: 0.9vw;
+    font-size: 1vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 10vw;
+    padding: 0.5vw;
     border: none;
     border-radius: 0.5vw;
-    padding: 0.2vw;
 }
 #o {
     font-size: 1vw;
@@ -90,15 +103,11 @@
     margin-top: 0.5vw;
     width: 4vw;
     height: 2vw;
-    color: gray;
-    border: solid gray 0.1vw;
-    background-color: rgb(190, 178, 178);
-    border-radius: 1vw;
-}
-.sendButtonEn {
-    background: none;
     color: white;
     border: solid white 0.1vw;
+    background: none;
+    border-radius: 1vw;
+    align-self: flex-end;
     cursor: pointer;
 }
 .subtitle {
@@ -129,11 +138,9 @@
     #firstName,
     #lastName,
     #email {
-        margin-bottom: 0.5vw;
         width: 60vw;
-        height: 4.5vw;
         font-size: 2.8vw;
-        padding: 0.2vw;
+        padding: 1.7vw;
     }
     .imgPsico {
         width: 28vw;
@@ -153,18 +160,24 @@
         flex-direction: column;
         align-items: center;
     }
+    label {
+        font-size: 2.5vw;
+    }
     #message {
         width: 60vw;
-        height: 30vw;
         font-size: 2.8vw;
-        margin-top: 1vw;
+        padding: 1.7vw;
+        height: 20vw;
+    }
+    .MuiInputBase-formControl {
+        margin-bottom: 3vw !important;
     }
     #o {
         display: none;
     }
     .sendButton {
         font-size: 2.8vw;
-        margin-top: 0vw;
+        margin-top: 0.5vw;
         width: 12vw;
         height: 4.3vw;
         border-radius: 2vw;
@@ -173,8 +186,7 @@
         display: none;
     }
     .subtitle {
-        font-size: 2.8vw;
-        margin: 0.5vw auto;
+        display: none;
     }
     .WhatsApp {
         margin-right: 1.5vw;
